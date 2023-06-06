@@ -30,22 +30,18 @@ button {
 img{
   display: block;
   width: 100%;
-  max-width: 100%;
   height: auto;
-  
+  margin: 10px;
 }
 
 .gallery {
   list-style: none;
+  
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
+  
   padding: 0;
-}
-
-.gallery li {
-  margin: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
 }
